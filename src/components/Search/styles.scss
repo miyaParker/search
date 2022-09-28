@@ -1,0 +1,32 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+
+  button {
+    border-radius: 4px;
+    border: none;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  input {
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid orange;
+    padding: 10px;
+  }
+}
+
+section.result {
+  p.error {
+    color: red;
+    display: block;
+  }
+  p.result{
+    color: green;
+  }
+}
